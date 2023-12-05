@@ -1,0 +1,182 @@
+h1{
+    background-color: black;
+    background-image: url(IMG\ Productos/Concha.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: left;
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+    border-radius: 10px
+}
+
+.th1{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:darkgray;
+}
+
+/*Esto es para el menu despegable*/
+
+ul{
+    list-style: none;
+    display: flex;
+  }
+
+li{
+    text-align: center;
+    list-style: none;
+    position: relative;
+}
+
+a{
+    border-left: 0;
+    border-right: 10px;
+    display: inline-block 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+ul ul{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+li:hover > ul{
+    display: block;
+}
+
+/* Hasta aqui llega el menu despegable */
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Aqui esta el catalogo */
+
+.contenido{
+    max-width: 1100px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.mostrador{
+    width: 100%;
+    transition: .5s ease;
+}
+
+.mostrador .fila{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.mostrador .fila .item{
+    max-width: 210px;
+    padding: 30px;
+    height: 250px;
+    /*border: 2px solid red;*/
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.mostrador .fila .item:hover{
+    background-color: #e6e6e6;
+}
+
+.mostrador .fila .item img{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.mostrador .fila .item .descripcion{
+    color: black;
+    font-weight: bold;
+}
+
+.mostrador .fila .item .precio{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.seleccion{
+    transition: .5s ease;
+    opacity: 0;
+    width: 0%;
+    border: 1px solid #ccc;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.info{
+    padding: 20px;
+}
+
+.info p{
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+
+.info .precio{
+    font-size: 30px;
+    font-weight: bold;
+    color: #f85151;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Aqui esta el final del catalogo */
+
+footer{
+    display: flex;
+    text-align:center;
+    background-color:grey;
+    color: black;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding: 50px;
+}
+
+footer > * {
+    font-size: 20px;
+    margin: 40px;
+}
+
+.th4{
+    color: black;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}

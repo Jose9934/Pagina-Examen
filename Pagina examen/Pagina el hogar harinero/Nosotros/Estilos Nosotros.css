@@ -1,0 +1,111 @@
+h1{
+    background-color: black;
+    background-image: url(IMG\ Nosotros/Concha.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: left;
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+    border-radius: 10px
+}
+
+.th1{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:darkgray;
+}
+
+h2{
+    background-color: darkgrey;
+    background-size: 50px;
+    border-radius: 40px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+
+p{
+    border: 5px solid black;
+    text-align: justify;
+    font-size: 15px;
+    padding: 50px;
+    line-height: 2.5;
+}
+
+/*Esto es para el pie de pagina*/
+
+footer{
+    display: flex;
+    text-align:center;
+    background-color:grey;
+    color: black;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding: 50px;
+}
+
+footer > * {
+    font-size: 20px;
+    margin: 40px;
+}
+
+/*Hasta aqui llega el menu despegable*/
+
+h3{
+    color: black;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+/*Esto es para el menu despegable*/
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    position: relative;
+}
+
+a{
+    border-left: 0;
+    border-right: 10px;
+    display: inline-block 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+ul ul{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+li:hover > ul{
+    display: block;
+}
+
+/*Hasta aqui llega el menu despegable*/
+
